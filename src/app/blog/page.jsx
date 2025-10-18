@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '@/app/components/Header';
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Footer from '@/app/components/Footer';
-import Servicesidebar from '@/app/components/Servicesidebar';
 import { base_url, name } from '@/app/information'
 import Link from 'next/link';
 

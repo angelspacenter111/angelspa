@@ -7,7 +7,7 @@ import { base_url, name } from '@/app/information'
 import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
-import Blogsidebar from '@/app/components/blogsidebar';
+import Blogsidebar from '@/app/components/Blogsidebar';
 import { abort } from 'process';
 
 export async function generateMetadata(props) {
@@ -40,14 +40,7 @@ const page = async props => {
                 <section className="inner-blog b-details-p pt-120 pb-120">
                     <div className="container">
                         <div className="row">
-
-                            <div cl>
-
-                            </div>
-
-                            <div dangerouslySetInnerHTML={{ __html: atob(data.contentHtml) }} className='col-md-8'>
-                                
-                            </div>
+                            <div dangerouslySetInnerHTML={{ __html: atob(data.contentHtml) }} className='col-md-8'></div>
                             <Blogsidebar />
                         </div>
                     </div>
