@@ -2,13 +2,12 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { name, base_url, contact } from '@/app/information'
-import Critters from 'critters';
 
 export const metadata = {
     openGraph: {
         siteName: name,
-        title: "Best spa and massage center near me in Mumbai | Angel Spa",
-        description: "Experience authentic Thai spa treatments in Mumbai at Angel Spa. Relax, rejuvenate, and unwind with our luxurious massages and wellness therapies.",
+        title: "Best spa and massage center in Mumbai | Angel Spa",
+        description: "Experience authentic spa treatments in Mumbai at Angel Spa. Relax, rejuvenate, and unwind with our luxurious massages and wellness therapies.",
         url: base_url,
         type: "website",
         locale: "en_US"

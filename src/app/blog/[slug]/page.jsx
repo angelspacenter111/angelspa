@@ -8,7 +8,6 @@ import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
 import Blogsidebar from '@/app/components/Blogsidebar';
-import { abort } from 'process';
 
 export async function generateMetadata(props) {
 
@@ -17,8 +16,15 @@ export async function generateMetadata(props) {
     const pstdatajson = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(pstdatajson);
 
+    console.log(data);
+
     return {
         title: data.pagename,
+        description: data.metadescription,
+        charSet: "utf-8",
+        alternates: {
+            canonical: base_url + "blog/" + data.pageurl,
+        },
     };
 }
 
