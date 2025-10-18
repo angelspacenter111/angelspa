@@ -47,7 +47,7 @@ const page = () => {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <h4><Link href="/blog/couple-massage-in-mumbai">Corporate wellness hubs angel spa.</Link></h4>
+                                        <h4><Link href="/blog/couple-massage-in-mumbai">Couple Massage In Mumbai | Angel Spa.</Link></h4>
                                         <div className="blog-btn"><Link href="/blog/couple-massage-in-mumbai">Read More <i className="far fa-long-arrow-right" /></Link></div>
                                     </div>
                                 </div>
