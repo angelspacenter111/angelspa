@@ -37,25 +37,24 @@ const page = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-post2 hover-zoomin">
                                     <div className="blog-thumb2">
-                                        <a href="blog-details.html"><img src={base_url + "/assets/img/blog/inner_b1.jpg"} alt="img" /></a>
+                                        <Link href="/blog/couple-massage-in-mumbai"><img src={base_url + "/assets/img/Couple-Massage-at-angelspa.webp"} alt="Couple Massage In Mumbai" /></Link>
                                     </div>
                                     <div className="blog-content2">
-                                        <div className="date-home">
-                                            Massage
-                                        </div>
                                         <div className="b-meta">
                                             <div className="meta-info">
                                                 <ul>
-                                                    <li><i className="fal fa-calendar-alt" /> 24th March 2021</li>
-                                                    <li><i className="fal fa-user" /> By Admin</li>
+                                                    <li><i className="fal fa-calendar-alt" /> 18th October 2025</li>
+                                                    <li><i className="fal fa-user" /> Angel Spa </li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <h4><Link href="/blog/corporate-wellness-hubs-angel-spa">Corporate wellness hubs angel spa.</Link></h4>
-                                        <div className="blog-btn"><Link href="/blog/corporate-wellness-hubs-angel-spa">Read More <i className="far fa-long-arrow-right" /></Link></div>
+                                        <h4><Link href="/blog/couple-massage-in-mumbai">Corporate wellness hubs angel spa.</Link></h4>
+                                        <div className="blog-btn"><Link href="/blog/couple-massage-in-mumbai">Read More <i className="far fa-long-arrow-right" /></Link></div>
                                     </div>
                                 </div>
                             </div>
+
+                            
                             
                         </div>
                     </div>
