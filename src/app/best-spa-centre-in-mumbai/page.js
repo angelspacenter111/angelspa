@@ -6,30 +6,13 @@ import Servicesidebar from '@/app/components/Servicesidebar';
 import { base_url, name, contact } from '@/app/information'
 import Link from 'next/link';
 // import Script from 'next/script';
-
-const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": { name },
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400092",
-        "addressCountry": "IN"
-    },
-    "telephone": "+91 " + { contact },
-    "url": "https://angelspa.vercel.app",
-    "image": base_url + "/assets/img/features/banner-01.webp",
-    "description": "Angel Spa is the best aroma manicure centre in Mumbai, offering relaxing and natural nail care with essential oils.",
-    "openingHours": "Mo-Su 10:00-22:00"
-};
-
 export const metadata = {
     title: 'Best Spa Centre in Mumbai - Angel Spa',
     description: "Discover Angel Spa, the best spa centre in Mumbai, offering relaxing massages, rejuvenating facials, and affordable wellness packages. Book now at Angel Spa",
-    canonical: base_url + "/best-spa-centre in-mumbai",
     charSet: "utf-8",
+    alternates: {
+        canonical: base_url + "/best-spa-centre in-mumbai",
+    }
 }
 
 const page = () => {

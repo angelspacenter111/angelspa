@@ -10,8 +10,10 @@ let pageUrl = base_url + "/swedish-massage-center-near-me-in-mumbai";
 export const metadata = {
     title: 'Best Swedish Massage for Men and Women in Mumbai - Angel Spa',
     description: "Swedish massage by top-rated male therapists in mumbai. Best Swedish massage for men and woman in Mumbai angel spa",
-    canonical: pageUrl,
     charSet: "utf-8",
+    alternates: {
+        canonical: pageUrl,
+    }
 }
 const page = () => {
     return (

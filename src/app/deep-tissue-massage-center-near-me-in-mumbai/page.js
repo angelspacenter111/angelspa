@@ -3,12 +3,15 @@ import Header from '@/app/components/Header';
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Footer from '@/app/components/Footer';
 import Servicesidebar from '@/app/components/Servicesidebar';
-import { name , base_url} from '@/app/information'
+import { base_url } from '@/app/information'
+const pageUrl = base_url + "/deep-tissue-massage-center-near-me-in-mumbai";
 export const metadata = {
-	title: 'Deep tissue massage center near me in Mumbai | Angel Spa',
-	description: "Experience the best deep tissue massage at Angel Spa, Mumbai's premier massage center near you. Relieve stress and muscle tension with expert care. Book now!",
-	canonical: base_url,
-	charSet: "utf-8",
+    title: 'Deep tissue massage center near me in Mumbai | Angel Spa',
+    description: "Experience the best deep tissue massage at Angel Spa, Mumbai's premier massage center near you. Relieve stress and muscle tension with expert care. Book now!",
+    charSet: "utf-8",
+    alternates: {
+        canonical: pageUrl,
+    }
 }
 
 const page = () => {

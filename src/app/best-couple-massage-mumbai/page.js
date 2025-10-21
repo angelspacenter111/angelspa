@@ -9,10 +9,13 @@ import Link from 'next/link';
 export const metadata = {
     title: 'Couple Massage Center in Mumbai - Angel Spa',
     description: "Angel Spa in Mumbai offers luxury couple massage packages that foster relaxation, intimacy, and wellness for partners. Explore unique spa experiences and book your session today",
-    canonical: base_url + "/best-couple-massage-mumbai",
+
     charSet: "utf-8",
     keywords: "Couple Massage Center in Mumbai ,couple massage Mumbai, Angel Spa, luxury spa Mumbai, romantic Couple massage, best spa for couples",
-    robots: "index, follow"
+    robots: "index, follow",
+    alternates: {
+        canonical: base_url + "/best-couple-massage-mumbai",
+    }
 }
 
 const page = () => {

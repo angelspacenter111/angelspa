@@ -7,10 +7,12 @@ import { base_url, name } from '@/app/information';
 let pageUrl = base_url + "/about"
 
 export const metadata = {
-    title: 'Angel Spa: Premier Spa Center in Mumbai - Bandra',
-    description: "Angel Spa is the best spa in Mumbai, located in the lively Bandra area. Come and enjoy relaxing therapies and wellness treatments in a peaceful setting. Book your visit today!",
-    canonical: pageUrl,
+    title: 'About Mumbai\'s Premier Wellness Spa | Angel Spa',
+    description: "Get to know Angel Spa, Mumbai trusted destination for massage and relaxation. Learn about our local roots and commitment to serving our community's well-being.",
     charSet: "utf-8",
+    alternates: {
+        canonical: pageUrl
+    },
 }
 const page = () => {
     return (

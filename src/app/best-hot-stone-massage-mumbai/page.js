@@ -9,10 +9,12 @@ import Link from 'next/link';
 export const metadata = {
     title: 'Best hot stone massage center in Mumbai | Angel Spa',
     description: "Experience the best hot stone massage in Mumbai at Angel Spa. Relax with expert therapists and quality stones. Book your session today!",
-    canonical: base_url + "/hot-stone-massage-center-in-mumbai",
     charSet: "utf-8",
     keywords: "best hot stone massage centre in Mumbai, Angel Spa, hot stone massage Mumbai, spa in Mumbai, relaxation therapy",
-    robots: "index, follow"
+    robots: "index, follow",
+    alternates: {
+        canonical: base_url + "/hot-stone-massage-center-in-mumbai",
+    }
 }
 
 const page = () => {

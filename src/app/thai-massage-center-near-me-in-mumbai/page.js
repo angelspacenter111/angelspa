@@ -6,10 +6,12 @@ import Servicesidebar from '@/app/components/Servicesidebar';
 import { base_url, name } from '@/app/information'
 
 export const metadata = {
-	title: 'Thai massage center near me in mumbai | Angel Spa',
-	description: "Relax with the best Thai massage at Angel Spa, Mumbai's top massage center near you. Enjoy authentic techniques for stress relief and wellness. Book today!",
-	canonical: base_url,
-	charSet: "utf-8",
+    title: 'Thai massage center near me in mumbai | Angel Spa',
+    description: "Relax with the best Thai massage at Angel Spa, Mumbai's top massage center near you. Enjoy authentic techniques for stress relief and wellness. Book today!",
+    charSet: "utf-8",
+    alternates: {
+        canonical: base_url + "/thai-massage-center-near-me-in-mumbai/",
+    },
 }
 
 const page = () => {

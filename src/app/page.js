@@ -7,8 +7,10 @@ import Link from 'next/link';
 export const metadata = {
 	title: 'Best spa and massage center in Mumbai | Angel Spa',
 	description: "Experience authentic Thai spa treatments in bendra at Angel Spa. Relax, rejuvenate, and unwind with our luxurious massages and wellness therapies.",
-	canonical: base_url,
 	charSet: "utf-8",
+	alternates: {
+		canonical: base_url
+	},
 }
 export default function Home() {
 	return (
@@ -278,7 +280,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				
+
 
 			</main>
 			<Footer />
