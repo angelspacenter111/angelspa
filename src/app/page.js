@@ -164,8 +164,8 @@ export default function Home() {
 										<li>
 											<div className="icon"><img src={base_url + "assets/img/icon/fe-icon08.png"} alt="Best Spa and massage center In Mumbai - Angel spa" /></div>
 											<div className="text pt-10">
-												<h4><Link href="/about">Balinese Massage:</Link></h4>
-												<p>This combines gentle stretches, acupressure, and aromatherapy to relax the body, reduce tension, and improve blood flow.</p>
+												<h4><Link href="/best-face-massage-center-in-mumbai-angel-spa">Face massaage:</Link></h4>
+												<p>At Angel Spa, our face massage service is designed to rejuvenate your skin and relax your mind.We use gentle techniques that improve blood circulation, reduce puffiness, and give your face a natural glow.</p>
 											</div>
 										</li>
 										<li>

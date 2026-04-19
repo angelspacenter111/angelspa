@@ -11,6 +11,7 @@ const Servicesidebar = () => {
                         <li><Link href="/thai-massage-center-near-me-in-mumbai">Thai Massage</Link></li>
                         <li><Link href="/deep-tissue-massage-center-near-me-in-mumbai">Deep Tissue Massage</Link></li>
                         <li><Link href="/best-head-massage-center-in-mumbai-angel-spa">Head Massage</Link></li>
+                        <li><Link href="/best-face-massage-service-in-andheri">Face Massage</Link></li>
                         <li><Link href="/best-aromatherapy-massage-center-in-mumbai-angel-spa">Aromatherapy Massage</Link></li>
                         <li><Link href="/best-spa-centre-in-mumbai">Spa Service</Link></li>
                         <li><Link href="/best-hot-stone-massage-mumbai">Hot Stone Massage</Link></li>
