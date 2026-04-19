@@ -36,7 +36,7 @@ const page = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-post2 hover-zoomin">
                                     <div className="blog-thumb2">
-                                        <Link href="/blog/couple-massage-in-mumbai"><img src={base_url + "/assets/img/Couple-Massage-at-angelspa.webp"} alt="Couple Massage In Mumbai" /></Link>
+                                        <Link href="/blog/couple-massage-in-andheri-mumbai"><img src={base_url + "/assets/img/Couple-Massage-at-angelspa.webp"} alt="Couple Massage In Mumbai" /></Link>
                                     </div>
                                     <div className="blog-content2">
                                         <div className="b-meta">
