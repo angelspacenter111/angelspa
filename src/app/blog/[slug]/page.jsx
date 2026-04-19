@@ -16,14 +16,15 @@ export async function generateMetadata(props) {
     const pstdatajson = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(pstdatajson);
 
-    console.log(data);
-
     return {
         title: data.pagename,
         description: data.metadescription,
         charSet: "utf-8",
         alternates: {
             canonical: base_url + "blog/" + data.pageurl,
+        },
+        verification: {
+            google: "XG1ZPDr2VXJeFKPjcpdyzTFTxcw-jgLX9td7V48dBMI",
         },
     };
 }
